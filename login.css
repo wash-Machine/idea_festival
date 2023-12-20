@@ -1,0 +1,118 @@
+body{
+    background: #F7F7F9;
+}
+
+.Rct70 {
+    width: 719px;
+    height: 716px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background-color: #fff;
+    text-align: center;
+    margin: auto;
+    margin-top: 120px;
+}
+
+
+.Rct31 {
+    width: 484px;
+    height: 78.57px;
+    flex-shrink: 0;
+    border-radius: 15.078px;
+    background: #F2F2F2;
+    text-align: center;
+    margin: auto;
+    margin-top: -28%;
+    position: relative;
+
+}
+.Rct32{
+    width: 484px;
+    height: 78.57px;
+    flex-shrink: 0;
+    border-radius: 15.078px;
+    background: #F2F2F2;
+    text-align: center;
+    margin: auto;
+    margin-top: 1%;
+    position: relative;
+
+}
+.Rct33{
+    width: 484px;
+    height: 78.57px;
+    flex-shrink: 0;
+    border-radius: 15.078px;
+    background: #F2F2F2;
+    text-align: center;
+    margin: auto;
+    margin-top: 1%;
+    position: relative;
+}
+.Rct30{
+    width: 484px;
+    height: 78.57px;
+    flex-shrink: 0;
+    border-radius: 15.078px;
+    background: #B4E2FF;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    position: relative;
+}
+
+.user-light{
+    width: 41.25px;
+    height: 40.64px;
+    flex-shrink: 0;
+}
+.logo{
+    left: 10px;
+}
+.icon1{
+    position: absolute;
+    top: 31%;
+    left: 39%;
+    z-index: 3;
+}
+.icon2{
+    position: absolute;
+    top: 41%;
+    left: 39%;
+    z-index: 3;
+}
+.icon3{
+    position: absolute;
+    top: 51%;
+    left: 39%;
+    z-index: 3;
+}
+
+.id{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    z-index: 3;
+    height: 30px;
+}
+#id{
+    position: absolute;
+    top: 30%;
+    left:50%;
+    z-index: 3;
+    height: 36px;
+}
+.pwd{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    z-index: 3;
+    height: 30px;
+}
+#pwd{
+    position: absolute;
+    top: 30%;
+    left:50%;
+    z-index: 3;
+    height: 36px;
+}
