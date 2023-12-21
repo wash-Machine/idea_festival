@@ -1,0 +1,122 @@
+:root {
+    --primary-color: #B4E2FF;
+    --black:#000000;
+
+}
+
+body {
+    background: #F7F7F9;
+    overflow: hidden;
+}
+
+.Rct70 {
+    width: 719px;
+    height: 716px;
+    border-radius: 30px;
+    background-color: #fff;
+    text-align: center;
+    margin: auto;
+    margin-top: 110px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+
+}
+
+.loginlogo {
+    position: relative;
+    top: 8%;
+    text-align: center; 
+    left: 6%;
+}
+
+.input-group {
+    position: relative;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.input-group i {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    font-size: 1.4rem;
+    color: var(--gray-2);
+}
+
+.input-group input {
+    width: calc(100% - 70rem);
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    border: 0.125rem solid var(--black); 
+    outline: none;
+    transition: border-color 0.3s ease-in-out; 
+    box-sizing: border-box;
+    margin: -310px auto; 
+    display: block;
+    margin-bottom: 11%;
+}
+
+.input-group input:focus {
+    border-color: var(--primary-color); 
+}
+.Rct30 button {
+    position: relative;
+    cursor: pointer;
+    width: 34%;
+    padding: 1.4rem 0;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-size: 1.2rem;
+    outline: none;
+    margin-top: 1%;
+    left: 33%;
+}
+.sign-up {
+    width: 95px;
+    height: 38px;
+    border-radius: 39.7px;
+    border: 3px solid #B4E2FF;
+    background: #FFF;
+    margin-top: -7.3%;
+    left: 61%;
+    position: relative;
+    cursor: pointer;
+}
+
+
+h3 {
+    position: relative;
+    width: 100px;
+    height: 25px;
+    margin-top: 4%;
+    left: 17%;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#login-in,
+#login-up {
+    transition: all 1s ease; /* 요소 크기 변화를 부드럽게 적용 */
+    width: 200px; /* 초기 너비 */
+    height: 200px; /* 초기 높이 */
+}
+
+.block {
+    opacity: 1;
+}
+
+.none {
+    opacity: 0;
+    transform: scale(0.1); /* 초기에 작게 시작하여 점점 커지도록 설정 */
+    pointer-events: none; /* 애니메이션 도중 클릭 이벤트 비활성화 */
+}

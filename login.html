@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="/login.css">
+</head>
+
+<body>
+
+    <form class="Rct70">
+        <form class="logo">
+            <img class="loginlogo" src="svg/loginlogo.svg">
+        </form>
+
+        <div class="input-group">
+            <i class='bx bxs-lock-alt'></i>
+            <input required maxlength="3" type="number" min="301" max="320" id="roomNumber" placeholder="호실">
+        </div>
+
+
+        <div class="input-group">
+            <i class='bx bxs-lock-alt'></i>
+            <input required maxlength="6" type="password" id="password" placeholder="비밀번호">
+        </div>
+
+        <div class="input-group">
+            <i class='bx bxs-lock-alt'></i>
+            <input required maxlength="16" type="userID" id="userID" placeholder="이메일">
+        </div>
+
+        <form class="Rct30">
+            <button>로그인</button>
+        </form>
+
+        <div class="sign-up" onclick="sendVerification()">
+            <h3>Sign up</h3>
+        </div>
+        <script>
+            function sendVerification() {
+                window.location.href = 'signup.html';
+            }
+        </script>
+    </form>
+    <script src="js/login.js"></script>
+    <script src="js/password.js"></script>
+</body>
+
+</html>

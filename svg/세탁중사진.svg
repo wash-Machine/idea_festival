@@ -1,0 +1,31 @@
+<svg width="156" height="173" viewBox="0 0 156 173" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_694_537)">
+<rect x="5" y="5" width="145.187" height="162.886" rx="17" fill="white"/>
+<rect x="6.5" y="6.5" width="142.187" height="159.886" rx="15.5" stroke="#CACACA" stroke-opacity="0.87" stroke-width="3"/>
+</g>
+<path d="M5.9248 26.2863C32.6037 51.6396 127.671 52.7543 148.337 26.2863" stroke="black" stroke-width="2"/>
+<line x1="43.915" y1="6.85095" x2="43.915" y2="42.9451" stroke="black" stroke-width="2"/>
+<path d="M85.3787 26.749C85.3787 31.0532 81.8924 34.5412 77.5935 34.5412C73.2946 34.5412 69.8083 31.0532 69.8083 26.749C69.8083 22.4448 73.2946 18.9568 77.5935 18.9568C81.8924 18.9568 85.3787 22.4448 85.3787 26.749Z" fill="white" stroke="black" stroke-width="2"/>
+<path d="M125.143 101.251C125.143 127.261 103.665 148.376 77.1313 148.376C50.5976 148.376 29.1191 127.261 29.1191 101.251C29.1191 75.2414 50.5976 54.1255 77.1313 54.1255C103.665 54.1255 125.143 75.2414 125.143 101.251Z" fill="white" stroke="black" stroke-width="2"/>
+<path d="M115.896 101.251C115.896 121.633 98.9763 138.196 78.0559 138.196C57.1354 138.196 40.2161 121.633 40.2161 101.251C40.2161 80.8686 57.1354 64.3059 78.0559 64.3059C98.9763 64.3059 115.896 80.8686 115.896 101.251Z" fill="white" stroke="black" stroke-width="2"/>
+<rect x="101.175" y="13.3294" width="24.0437" height="4.62745" rx="1.5" fill="black"/>
+<path d="M5.9248 26.2863C32.6037 51.6396 127.671 52.7543 148.337 26.2863" stroke="#CACACA" stroke-width="2"/>
+<line x1="43.915" y1="6.85095" x2="43.915" y2="42.9451" stroke="#CACACA" stroke-width="2"/>
+<path d="M85.3787 26.749C85.3787 31.0532 81.8924 34.5412 77.5935 34.5412C73.2946 34.5412 69.8083 31.0532 69.8083 26.749C69.8083 22.4448 73.2946 18.9568 77.5935 18.9568C81.8924 18.9568 85.3787 22.4448 85.3787 26.749Z" fill="white" stroke="black" stroke-width="2"/>
+<ellipse cx="77.1313" cy="101.251" rx="49.0121" ry="48.1255" fill="white"/>
+<path d="M125.143 101.251C125.143 127.261 103.665 148.376 77.1313 148.376C50.5976 148.376 29.1191 127.261 29.1191 101.251C29.1191 75.2414 50.5976 54.1255 77.1313 54.1255C103.665 54.1255 125.143 75.2414 125.143 101.251Z" stroke="#CACACA" stroke-opacity="0.67451" stroke-width="2"/>
+<ellipse cx="78.0559" cy="101.251" rx="38.8398" ry="37.9451" fill="url(#paint0_linear_694_537)"/>
+<path d="M115.896 101.251C115.896 121.633 98.9763 138.196 78.0559 138.196C57.1354 138.196 40.2161 121.633 40.2161 101.251C40.2161 80.8686 57.1354 64.3059 78.0559 64.3059C98.9763 64.3059 115.896 80.8686 115.896 101.251Z" stroke="black" stroke-opacity="0.67451" stroke-width="2"/>
+<rect x="101.175" y="13.3294" width="24.0437" height="4.62745" rx="1.5" fill="black"/>
+<defs>
+<filter id="filter0_f_694_537" x="0" y="0" width="155.187" height="172.886" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="2.5" result="effect1_foregroundBlur_694_537"/>
+</filter>
+<linearGradient id="paint0_linear_694_537" x1="74.5" y1="106" x2="78" y2="-59.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0085FF"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
