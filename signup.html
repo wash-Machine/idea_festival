@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <form class="Rct70">
+        <form class="logo">
+            <img class="loginlogo" src="svg/loginlogo.svg">
+        </form>
+        <div class="email-bg">
+            <input required maxlength="25" id="email" type="email" placeholder="이메일을 입력해주세요." onfocus="moveCursor()">
+        </div>
+        
+        <script>
+        function moveCursor() {
+            const emailInput = document.getElementById('email');
+            const fixedDomain = '@gsm.hs.kr';
+        
+            emailInput.value = fixedDomain;
+        
+            emailInput.setSelectionRange(0, 0);
+        }
+        </script>
+        
+        <div class="password-bg" onclick="sendVerification()">
+            <h3 class="password">인증번호 받기</h3>
+        </div>
+        
+        <script>
+        function sendVerification() {
+            const email = document.getElementById('email').value.trim();
+            const fixedDomain = '@gsm.hs.kr';
+        
+            if (email === fixedDomain || email === '') {
+                alert('이메일을 입력하세요.'); 
+            } else {
+                alert('인증번호가 발송되었습니다.');
+                window.location.href = 'login.html'; 
+            }
+        }
+        </script>
+    </form>
+</body>
+
+</html>

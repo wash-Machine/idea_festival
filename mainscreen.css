@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color:#F7F7F9;
+}
+
+.main {
+    
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+.main img {
+    position: absolute;
+}
+
+.user {
+    top: 2px;
+    left: 79%;
+}
+.bgup {
+    width: 39%;
+    left: 0%;
+}
+.bgdowm {
+    width: 47%;
+    left: 57%;
+    margin-top: 34%;
+}
+.logo {
+    top: 0%;
+    left: 1%;
+    z-index: 2;
+}
+
+.wash {
+    margin-top: 3%;
+    left: 11%;
+}
+
+.washmachine-container {
+    position: relative;
+    width: 85%;
+    height: 85%;
+    justify-content: space-between;
+    display:flex;
+  }
+  
+.washmachine {
+    position: absolute;
+    width: 10%; 
+    height: auto; 
+  }
+  #w1 { top: 90px; left: 17%; }
+  #w2 { top: 290px; left: 17%; }
+  #w3 { top: 490px; left: 17%; }
+  #w4 { top: 690px; left: 17%; }
+  #w5 { top: 90px; left: 35%; }
+  #w6 { top: 290px; left: 35%; }
+  #w7 { top: 490px; left: 35%; }
+  #w8 { top: 690px; left: 35%; }
+  .drymachine-container {
+    position: relative;
+    width: 85%;
+    height: 85%;
+    justify-content: space-between;
+    display: flex;
+  }
+  
+  .drymachine {
+    position: absolute;
+    width: 10%;
+    height: auto;
+  }
+  
+  #d1 { top: 270px; left: 65%; }
+  #d2 { top: 270px; left: 77%; }
+  #d3 { top: 270px; left: 89%; }
+  #d4 { top: 630px; left: 65%; }
+  #d5 { top: 630px; left: 77%; }
+  #d6 { top: 630px; left: 89%; }
+  
+
+  
+.dry {
+    left: 53%;
+    margin-top: 12%;
+}
+h1{
+    position: absolute;
+    top: -28px;
+    left: 58%;
+    font-size: 500%;
+}
+.logout{
+   margin-top: 48%;
+   left: 3%;
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+    display : none;
+}
