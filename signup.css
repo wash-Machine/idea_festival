@@ -3,13 +3,13 @@
     overflow: hidden;
 }
 .Rct70 {
-    width: 719px;
-    height: 716px;
-    border-radius: 30px;
+    width: 38vw;
+    height: 68vh;
+    border-radius: 10%;
     background-color: #fff;
     text-align: center;
     margin: auto;
-    margin-top: 110px;
+    margin-top: 8%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .loginlogo{
@@ -19,16 +19,15 @@
     left: 6%;
 }
 .email-bg {
-    width: 500px; 
-    height: 90px; 
-    border-radius: 15px;
+    width: 34vw;
+    height: 10vh;
+    border-radius: 1rem;
     background: #F2F2F2;
     position: relative;
-    margin-top: -27%;
-    left: 36%;
-    transition: border-color 0.3s ease-in-out; 
+    margin-top: -22%;
+    left: 33%;
+    transition: border-color 0.3s ease-in-out;
 }
-
 #email {
     border: none;
     width: 90%; 
@@ -40,25 +39,24 @@
     transform: translate(-50%, -50%);
     background-color: transparent;
     outline: none;
-    font-size: 28px; 
+    font-size: 2rem; 
 }
 
 .password-bg{
-    width: 500px; 
-    height: 90px; 
-    border-radius: 15px;
+    width: 34vw;
+    height: 10vh;
+    border-radius: 1rem;
     background: #B4E2FF;
     position: relative;
     margin-top: 0%;
-    left: 36%;
+    left: 33%;
     transition: border-color 0.3s ease-in-out; 
 }
 .password{
-    text-align: center;
     color: #FFF;
     text-align: center;
     font-family: Pretendard;
-    font-size: 25.632px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 200;
     line-height: normal;

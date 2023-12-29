@@ -20,6 +20,10 @@
             <input required maxlength="3" type="number" min="301" max="320" id="roomNumber" placeholder="호실">
         </div>
 
+        <div class="input-group">
+            <i class='bx bxs-lock-alt'></i>
+            <input required maxlength="3" type="name" id="name" placeholder="이름">
+        </div>
 
         <div class="input-group">
             <i class='bx bxs-lock-alt'></i>
@@ -32,7 +36,7 @@
         </div>
 
         <form class="Rct30">
-            <button>로그인</button>
+            <button onclick="redirectWithRoomNumber()">로그인</button>
         </form>
 
         <div class="sign-up" onclick="sendVerification()">

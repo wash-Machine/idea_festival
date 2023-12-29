@@ -5,7 +5,6 @@ body {
 }
 
 .main {
-    
     text-align: center;
     margin: 0 auto;
     position: relative;
@@ -14,9 +13,25 @@ body {
     position: absolute;
 }
 
-.user {
-    top: 2px;
-    left: 79%;
+.userbg {
+    left: 78%;
+}
+
+.userimg{
+    left: 80vw; 
+    top: 1.5vh;
+}
+#displayName {
+    position: absolute;
+    font-size: 3vw;
+    left: 88vw;
+    top: -2vh;
+}
+#displayRoomNumber {
+    position: absolute;
+    font-size: 3vw;
+    left: 88.5vw;
+    top: 4vh;
 }
 .bgup {
     width: 39%;
@@ -29,7 +44,7 @@ body {
 }
 .logo {
     top: 0%;
-    left: 1%;
+    left: 2%;
     z-index: 2;
 }
 
@@ -51,14 +66,14 @@ body {
     width: 10%; 
     height: auto; 
   }
-  #w1 { top: 130px; left: 17%; }
-  #w2 { top: 300px; left: 17%; }
-  #w3 { top: 500px; left: 17%; }
-  #w4 { top: 700px; left: 17%; }
-  #w5 { top: 130px; left: 40%; }
-  #w6 { top: 300px; left: 40%; }
-  #w7 { top: 500px; left: 40%; }
-  #w8 { top: 700px; left: 40%; }
+  #w1 { top: 14vh; left: 14.5vw; }
+  #w2 { top: 33vh; left: 14.5vw; }
+  #w3 { top: 55vh; left: 14.5vw; }
+  #w4 { top: 77vh; left: 14.5vw; }
+  #w5 { top: 14vh; left: 34vw; }
+  #w6 { top: 33vh; left: 34vw; }
+  #w7 { top: 55vh; left: 34vw; }
+  #w8 { top: 77vh; left: 34vw; }
   .drymachine-container {
     position: relative;
     width: 85%;
@@ -73,12 +88,12 @@ body {
     height: auto;
   }
   
-  #d1 { top: 260px; left: 67%; }
-  #d2 { top: 260px; left: 79.5%; }
-  #d3 { top: 260px; left: 92%; }
-  #d4 { top: 630px; left: 67%; }
-  #d5 { top: 630px; left: 79.5%; }
-  #d6 { top: 630px; left: 92%; }
+  #d1 { top: 29vh; left: 57vw; }
+  #d2 { top: 29vh; left: 67.5vw; }
+  #d3 { top: 29vh; left: 78vw; }
+  #d4 { top: 70vh; left: 57vw; }
+  #d5 { top: 70vh; left: 67.5vw; }
+  #d6 { top: 70vh; left: 78vw; }
   
 
   
@@ -86,18 +101,13 @@ body {
     left: 53%;
     margin-top: 12%;
 }
-h1{
+#clock{
     position: absolute;
-    top: -28px;
-    left: 58%;
+    top: -2vh;
+    left: 56vw;
     font-size: 500%;
 }
 .logout{
-   margin-top: 48%;
-   left: 3%;
-}
-
-input::-ms-reveal,
-input::-ms-clear {
-    display : none;
+   margin-top: 47%;
+   left: 4%;
 }

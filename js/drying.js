@@ -1,54 +1,64 @@
+const dryMachines = document.querySelectorAll('.drymachine');
+const dryMachineStatus = new Map();
 
-const drymachines = document.querySelectorAll('.drymachine');
-
-const drymachineStatus = new Map();
-
-
-drymachines.forEach(machine => {
-  drymachineStatus.set(machine.id, {
-    inUse: false
+dryMachines.forEach(machine => {
+  dryMachineStatus.set(machine.id, {
+    inUse: false,
+    roomNumber: ''
   });
 });
 
+function useDryMachine(event) {
+  const selectedDryMachine = event.target;
 
-function useDrymachine(event) {
-  const selectedDrymachine = event.target; 
-  
- 
-  if (!selectedDrymachine.classList.contains('drymachine')) return;
+  if (!selectedDryMachine.classList.contains('drymachine')) return;
 
-  const machineId = selectedDrymachine.id;
-  
-  
-  if (drymachineStatus.get(machineId).inUse) {
-    alert('이미 사용 중입니다.');
-    return;
-  }
+  const machineId = selectedDryMachine.id;
 
-  const confirmation = confirm('명찰을 등록 하시겠습니까?');
-  
+  const confirmation = confirm('명찰을 등록하시겠습니까?');
+
   if (confirmation) {
-    drymachineStatus.get(machineId).inUse = true; 
-    
-    if (machineId === 'd3') {
-      selectedDrymachine.src = 'svg/검정색건조중.svg'; 
-    } else {
-      selectedDrymachine.src = 'svg/건조중사진.svg'; 
+    if (dryMachineStatus.get(machineId).inUse) {
+      alert('이미 건조기를 사용 중입니다.');
+      return;
     }
-    
+
+    let roomNumber = document.getElementById('displayRoomNumber').textContent;
+
+    const currentMachineInUse = Array.from(dryMachineStatus.values()).find(machine => machine.inUse && machine.roomNumber === roomNumber);
+
+    if (currentMachineInUse) {
+      alert(`"${roomNumber}"는 이미 건조기 사용 중입니다.`);
+      return;
+    }
+
+    dryMachineStatus.get(machineId).inUse = true;
+    dryMachineStatus.get(machineId).roomNumber = roomNumber;
+
+    if (machineId === 'd3') {
+      selectedDryMachine.src = 'svg/검정색건조중.svg';
+    } else {
+      selectedDryMachine.src = 'svg/건조중사진.svg';
+    }
+
+    // 호실 명찰 생성 및 표시
+    const roomDisplay = createRoomDisplay(roomNumber, selectedDryMachine);
+
     setTimeout(() => {
-      drymachineStatus.get(machineId).inUse = false; 
+      dryMachineStatus.get(machineId).inUse = false;
       if (machineId === 'd3') {
-        selectedDrymachine.src = 'svg/검정색건조기.svg'; 
+        selectedDryMachine.src = 'svg/검정색건조기.svg';
       } else {
-        selectedDrymachine.src = 'svg/건조기사진.svg'; 
+        selectedDryMachine.src = 'svg/건조기사진.svg';
       }
       alert('건조가 끝났습니다.');
-    }, 10000); 
+
+      // 건조가 끝나면 방번호 표시를 삭제합니다.
+      roomDisplay.remove();
+    }, 10000);
   }
 }
 
-// 각 세탁기에 이벤트 리스너 추가
-drymachines.forEach(machine => {
-  machine.addEventListener('click', useDrymachine);
+dryMachines.forEach(machine => {
+  machine.addEventListener('click', useDryMachine);
 });
